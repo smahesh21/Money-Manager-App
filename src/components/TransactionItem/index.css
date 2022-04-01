@@ -1,0 +1,24 @@
+.transaction-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid #7e858e;
+  padding: 0px;
+}
+.transaction-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #334155;
+}
+.delete-button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.delete {
+  height: 16px;
+  width: 16px;
+  border: 0;
+  background: transparent;
+}

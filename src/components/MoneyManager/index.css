@@ -1,0 +1,120 @@
+.app-container {
+  height: 100vh;
+  padding: 40px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.money-manager-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 20%;
+  width: 100%;
+  padding: 16px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+}
+.span-element {
+  color: #0b69ff;
+}
+
+.form-transaction-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.form-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  width: 35%;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.label-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7e858e;
+}
+.input-element {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #7e858e;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  height: 30px;
+  padding-left: 12px;
+}
+.select-element {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #7e858e;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+.button {
+  height: 30px;
+  width: 60px;
+  border: 0px none;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.history-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  width: 60%;
+  height: 40%;
+  margin-top: 32px;
+  padding: 16px;
+}
+.history-transaction-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #7e858e;
+  padding-left: 60px;
+}
+.header-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 64px;
+}
+.separator {
+  padding: 0px;
+}
+.transactions-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}

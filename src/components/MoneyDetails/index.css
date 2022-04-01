@@ -1,0 +1,50 @@
+.money-details-container {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.money-details-containerr {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 15%;
+  width: 30%;
+  border-radius: 12px;
+  margin-right: 12px;
+  padding: 12px;
+  margin-right: 16px;
+}
+.box-1 {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.box-2 {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.box-3 {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.image-styling {
+  height: 35px;
+  width: 35px;
+}
+.money-details {
+  margin-left: 16px;
+}
+.money {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+.rupees {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  color: #475569;
+}
